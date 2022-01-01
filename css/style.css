@@ -1,11 +1,39 @@
+html, 
 body{
-    background-image: url("shaggy-has-an-existential-crisis-in-the-woods.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
+    margin: 0;
+    padding: 0;
     
 }
 
-div{
-    border: solid black 2px;
+.wrapper{
+    display: grid;
+    grid-template-columns:repeat(3,1fr);
+    gap: 10px;
+    grid-auto-rows: minmax(100px,auto);
+    top: 0;
+    bottom:0;
+    position: absolute;
+    width: 100%;
+    background-image: url("/img/shaggy-has-an-existential-crisis-in-the-woods.jpg");
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position:top center;
+}
+
+.header{
+    grid-column: 1 / 4;
+    grid-row: 1;
+    background-color: rgba(100,90,0, 0.5);
+}
+
+.sidmeny{
+    grid-column: 1;
+    grid-row: 2 / 4;
+    background-color: rgba(100,73,25, 0.5);
+}
+
+.content{
+    grid-column: 2 / 4;
+    grid-row: 2 / 4;
+    background-color: rgba(63,82,91,0.5);
 }
