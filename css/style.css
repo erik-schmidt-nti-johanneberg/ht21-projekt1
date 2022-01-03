@@ -42,6 +42,7 @@ body{
 }
 
 .sidemenu{
+    overflow-y: scroll;
     grid-column: 1;
     grid-row: 2 / 4;
     background-color: rgba(107,68,11, 0.75);
@@ -150,4 +151,86 @@ a:active {
     width: 40px;
     padding-right: 10px;
     padding-top: 10px;
+}
+
+.orderform label {
+    width: 150px;
+    display: inline-block;
+}
+
+.orderform input[type=text],textarea {
+    width: 40vw;
+}
+
+.orderform {
+    color: rgb(34,158,30);
+    font-family: 'Spline Sans', sans-serif;
+    margin-left: 15px;
+    font-size: 20px;
+    vertical-align: top;
+    display: table-cell;
+}
+
+#button1 {
+    margin-left: 15vw;
+}
+
+#button2 {
+    margin-left: 20vw;
+}
+
+.buttons {
+    width: 80px;
+}
+
+.formstyle {
+    margin-top: 5vw;
+}
+
+.spacer {
+    height: 20px;
+}
+
+.formname {
+    color: rgb(34,158,30);
+    font-family: 'Spline Sans', sans-serif;
+    margin-left: 20vw;
+}
+
+.namestyling {
+    margin-left: 3vw;
+}
+
+#ordername {
+    vertical-align: top;
+}
+
+.foodstyling {
+    color: rgb(34,158,30);
+    font-family: 'Spline Sans', sans-serif;
+    width: 275px;
+    display: inline-block;
+}
+
+.spacer2 {
+    height: 3vw;
+}
+
+.menustyling {
+    padding-left: 2vw;
+    font-size: 20px;
+    vertical-align: top;
+    display: table-cell;
+}
+
+.buttonstyling {
+    background-color: rgb(34,158,30); 
+    border: none;
+    color: rgb(107,68,11);
+    padding: 5px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 15px;
+    border-radius: 8px;
 }
